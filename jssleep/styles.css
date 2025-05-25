@@ -1,0 +1,70 @@
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.centered {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.header {
+  height: 7vh;
+  width: 80%;
+  border:1px solid gainsboro;
+  flex-direction: row;
+  margin-top: 0.5vh;
+}
+
+.header img {
+  width:2vw;
+  margin-left: 0.5vw;
+}
+
+.header-text {
+  font-size: 1.5rem;
+}
+
+.content {
+  height: 92vh;
+  width: 80%;
+  border:1px solid gainsboro;
+  justify-content: left;
+  align-items:normal;
+  flex-direction: column;
+}
+
+#btnDemoSleep {
+  height:30px;
+  width: 200px;
+  margin: 10px;
+}
+
+.terminal {
+  height: 300px;
+  width: 500px;
+  background-color: black;
+  color:white;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  font-family: monospace;
+  box-shadow: 12px 13px 29px -5px rgba(0,0,0,0.43);
+  }
+
+  .flex-horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ml1 {
+    margin-left:0.5vw;
+    margin-top:1vh;
+  }
